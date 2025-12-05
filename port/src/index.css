@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 
 *{
     margin: 0;
@@ -15,14 +12,51 @@
 }
 
 body{
-    background-color: black;
     width: 100dvw;
+    background-color: black;
     height: 100%;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
-/* mouse pointer styles*/ 
+/* ==========================
+   GLOBAL CUSTOM SCROLLBAR
+   (Affects entire page)
+   ========================== */
 
+:root{
+  --scrollbar-track: rgb(0, 0, 0);
+  --scrollbar-thumb: rgb(10, 10, 10);
+  --scrollbar-thumb-hover: rgb(18, 18, 18);
+  --scrollbar-width: 5px;
+  --scrollbar-radius: 10px;
+}
 
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
 
+/* Chrome, Edge, Safari */
+html::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+  height: var(--scrollbar-width);
+}
 
+html::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+  border-radius: var(--scrollbar-radius);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: var(--scrollbar-radius);
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  transition: background-color 150ms ease, transform 120ms ease;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+  transform: scale(1.02);
+}

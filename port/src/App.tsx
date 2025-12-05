@@ -5,7 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import Hobbies from "./pages/Hobbies";
 import Contact from "./pages/Contact";
 import Certificate from "./pages/Certificate";
-import Navbar from "./assets/Navbar"
+import Navbar from "./assets/Navbar";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/hobbies" element={<Hobbies />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/certificate" element = {<Certificate/>}/>
+        <Route path="/certificate" element={<Certificate />} />
       </Routes>
     </div>
   );

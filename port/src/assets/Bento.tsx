@@ -9,13 +9,10 @@ interface BentoProps {
 
 const Bento: React.FC<BentoProps> = ({ title, to, className = "" }) => {
   return (
-    <div
-      className={`transition-all duration-300 text-[#CACACA] border border-white/30 bg-[#5050501A] backdrop-blur rounded-[20px] font-inter font-medium flex justify-center items-center ${className}`}
-    >
+    <div >
       <Link
         to={to}
-        className="text-inherit hover:text-white text-center"
-      >
+        className={`text-[#eeeeee] hover:text-[#cacaca] text-center transition-all duration-300  border border-white/30 bg-[#5050501A] backdrop-blur rounded-[20px] font-inter font-medium flex justify-center items-center ${className}`}>
         {title}
       </Link>
     </div>
