@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 
 const navLinks = [
   { name: "Resume", href: "/resume" },
-  { name: "Portfolio", href: "/portfolio" },
-  { name: "Hobbies", href: "/hobbies" },
+  { name: "Portfolio", href: "/portfolio" }
 ];
+
+//{ name: "Hobbies", href: "/hobbies" }, add this to above arrray 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,13 +14,13 @@ const Navbar = () => {
   return (
     <div className="fixed top-[20px] w-full z-[999] px-4">
       {/* Desktop navbar - centered */}
-      <div className="hidden sm:flex justify-center">
-        <nav className="flex items-center gap-2 tracking-[-0.06em]">
+      <div className="hidden sm:flex justify-center ">
+        <nav className="flex items-center gap-1.5 tracking-[-0.06em]">
           {/* Left side with links */}
-          <div className="flex items-center bg-[#5050501A] backdrop-blur border border-white/30 rounded-l overflow-hidden text-white hover:bg-white hover:text-black hover:border-white transition-all duration-500">
+          <div className="flex items-center bg-[#5050501A] backdrop-blur border border-white/30 rounded-l overflow-hidden text-white hover:bg-white hover:text-black hover:border-white transition-all duration-500 ">
             <Link
               to="/"
-              className="px-6 py-1 font-labelle text-[25px] relative top-[2px]"
+              className="px-6 py-0.5 font-labelle text-[20px] relative top-[2px]"
             >
               H
             </Link>
@@ -27,7 +28,7 @@ const Navbar = () => {
               <Link
                 key={link.name}
                 to={link.href}
-                className="font-medium text-[15px] font-inter px-6 py-1"
+                className="font-medium text-[12px] font-inter px-6 py-1"
               >
                 {link.name}
               </Link>
@@ -38,7 +39,7 @@ const Navbar = () => {
           <div className="flex h-full items-center justify-center">
             <Link
               to="/contact"
-              className="h-full bg-white text-black font-medium text-[15px] font-inter px-6 py-1 flex items-center justify-center rounded-r"
+              className="h-full bg-white text-black font-medium text-[12px] font-inter px-6 py-1 flex items-center justify-center rounded-r hover:bg-[#5050501A] hover:text-white  hover:border hover:border-white/30 hovver:backdrop-blur transition-all duration-500"
             >
               Contact
             </Link>

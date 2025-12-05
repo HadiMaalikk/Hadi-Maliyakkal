@@ -1,4 +1,4 @@
-import HeroText from "../components/Herotext";
+import HeroText from "../components/HeroText";
 
 const Hero = () => {
     return(
