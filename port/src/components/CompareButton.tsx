@@ -13,7 +13,7 @@ const movingMap = {
 };
 
 const highlight =
-  "radial-gradient(80% 181% at 50% 50%, #ff3d00 0%, rgba(255,255,255,0) 100%)";
+  "radial-gradient(80% 181% at 50% 50%, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%)";
 
 export function CompareButton() {
 
@@ -58,8 +58,8 @@ const navigate = useNavigate();
         }}
         transition={{ duration: 1, ease: "linear" }}
       />
-      <span className="text-[#dbdbdb] hover:text-orange-600 transition-colors ease-in duration-700 relative z-10 inline-flex h-11 w-full items-center justify-center rounded-full bg-black px-6 py-1 text-sm backdrop-blur-3xl">
-        Compare.
+      <span className="text-[#dbdbdb] hover:text-white transition-colors ease-in duration-700 relative z-10 inline-flex h-11 w-full items-center justify-center rounded-full bg-black px-6 py-1 text-xs backdrop-blur-3xl">
+        Take a Leap.
       </span>
     </button>
   );
