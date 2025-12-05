@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="hidden sm:flex justify-center ">
         <nav className="flex items-center gap-1.5 tracking-[-0.06em]">
           {/* Left side with links */}
-          <div className="flex items-center bg-[#5050501A] backdrop-blur border border-white/30 rounded-l overflow-hidden text-white hover:bg-white hover:text-black hover:border-white transition-all duration-500 ">
+          <div className="flex items-center bg-[#5050501A] backdrop-blur border border-white/30 rounded-l overflow-hidden text-white hover:bg-white hover:text-black hover:border-white active:bg-white/70 transition-all duration-500 ">
             <Link
               to="/"
               className="px-6 py-0.5 font-labelle text-[20px] relative top-[2px]"
@@ -39,7 +39,7 @@ const Navbar = () => {
           <div className="flex h-full items-center justify-center">
             <Link
               to="/contact"
-              className="h-full bg-white text-black font-medium text-[12px] font-inter px-6 py-1 flex items-center justify-center rounded-r hover:bg-[#5050501A] hover:text-white  hover:border hover:border-white/30 hovver:backdrop-blur transition-all duration-500"
+              className="h-full bg-white text-black font-medium text-[12px] font-inter px-6 py-1 flex items-center justify-center rounded-r hover:bg-[#5050501A] hover:text-white   hover:backdrop-blur hover:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.3)] active:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.5)] transition-all duration-500"
             >
               Contact
             </Link>

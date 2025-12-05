@@ -6,6 +6,7 @@ import Hobbies from "./pages/Hobbies";
 import Contact from "./pages/Contact";
 import Certificate from "./pages/Certificate";
 import Navbar from "./assets/Navbar"
+
 const App = () => {
   return (
     <div>
