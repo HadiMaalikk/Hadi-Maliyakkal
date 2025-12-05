@@ -1,15 +1,21 @@
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+  return (<>
+    <section className="relative min-h-screen flex items-center">
       
-      {/* Blurred Background */}
+      {/* Blurred Background 
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-[0px] opacity-100"
         style={{ backgroundImage: "url('/infibg2.png')" }}
       />
+      */}
+      
+      
+      <img src="./public/infinity.jpg" alt="Bg" className="z-[-99] absolute top-[465px] left-[-212px] rotate-[-34deg] scale-[1.7] saturate-0"/>
+      <img src="./public/infinity.jpg" alt="Bg" className="z-[-99] absolute top-[275px] right-[-250px] rotate-[34deg] scale-[1.85] saturate-0 "/>
 
-   <p className="absolute bottom-5 left-1/2 -translate-x-1/2 text-[10px] text-[#eeeeee] font-inter font-light z-20">
-        Designed by Hadi Maliyakkal.
+
+   <p className="absolute bottom-5 left-1/2 -translate-x-1/2 text-[10px] text-[#eeeeee] font-inter font-thin z-20">
+        Designed by <span className="font-semibold">Hadi Maliyakkal.</span>
       </p>
 
       {/* Main Content */}
@@ -27,13 +33,13 @@ const Hero = () => {
           <div className="mt-8 flex justify-center md:justify-center space-x-4">
             <a
               href="/get-started"
-              className="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
+              className="px-6 py-2 text-sm bg-[#5050501A] border border-white/30 text-white rounded-md hover:bg-white hover:text-black transition-all duration-500"
             >
               Get Started
             </a>
             <a
               href="/learn-more"
-              className="px-6 py-2 bg-white text-blue-600 border border-blue-600 rounded-md hover:bg-blue-50 transition"
+              className="px-6 py-2 text-sm bg-white text-black border border-white rounded-md hover:bg-[#5050501A] hover:text-white hover:border-white/30 transition-all duration-500"
             >
               Learn More
             </a>
@@ -41,6 +47,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
