@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Bento from "../assets/Bento";
+import { CompareButton } from "../components/CompareButton";
 
 const Hero = () => {
   return (
@@ -77,7 +78,7 @@ const Hero = () => {
               <Bento to = "/portfolio" className="py-10 aspect-square w-48 hover:shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all duration-500" title="Portfolio"></Bento>
               <Bento to = "/portfolio" className="py-10 aspect-square w-48 hover:shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all duration-500" title="Portfolio"></Bento>
               <Bento to = "/portfolio" className="py-10 aspect-square w-48 hover:shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all duration-500" title="Portfolio"></Bento>
-              
+              <CompareButton/>
               </div>
               <h1 className="text-white text-2xl font-thin mb-3">
                 about <span className="font-bold">me.</span>
