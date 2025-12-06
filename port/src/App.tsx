@@ -9,7 +9,7 @@ import HeroWithLoading from "./pages/HeroWithLoading";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Routes>
         <Route path="/" element={<HeroWithLoading/>} />
