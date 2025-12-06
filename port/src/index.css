@@ -11,12 +11,14 @@
     box-sizing: border-box;
 }
 
-body{
-    width: 100dvw;
+body {
+    width: 100%;
+    max-width: 100vw;
     background-color: black;
     height: 100%;
     overflow-x: hidden;
 }
+
 
 /* ==========================
    GLOBAL CUSTOM SCROLLBAR
