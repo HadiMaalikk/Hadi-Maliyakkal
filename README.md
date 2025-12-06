@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! It is a monochromatic website designed to showcase my skills, projects, and experience in web development, AI, and software engineering. While it also demonstrates my other interests in fields that are much different to tech and coding.
 
-Visit the site : hadi-maliyakkal.vercel.app
+Visit the site: [hadi-maliyakkal.vercel.app](https://hadi-maliyakkal.vercel.app)
 
 Build Progress - 20%
 
