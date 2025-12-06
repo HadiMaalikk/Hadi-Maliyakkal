@@ -28,10 +28,11 @@ const HeroWithLoading = () => {
         <section className="fixed inset-0 flex items-center justify-center bg-black z-[9999]">
           <p className="text-white text-center">
             <EncryptedText
-              text="Designed by Hadi Maliyakkal."
+              text="<p> Designed by Hadi Maliyakkal. </p>"
               encryptedClassName="text-neutral-500"
-              revealedClassName="text-white"
+              revealedClassName="text-[#eeeeee]"
               revealDelayMs={50}
+              
             />
           </p>
         </section>
