@@ -20,7 +20,6 @@ Deployment: Vercel
 **Feel free to reach out!**  
 Email: hadimaliyakkal2@gmail.com  
 LinkedIn: https://www.linkedin.com/in/hadi-m/  
-GitHub: HadiMaalikk  
 
 
 Thank you for visiting my portfolio! 🤍
