@@ -7,7 +7,7 @@ const Hero = () => {
       <section className="relative min-h-screen flex items-center">
 
         <img
-          src="./public/infinity.png"
+          src="/infinity.png"
           alt="Bg"
           className="z-[-99] absolute rotate-[-34deg] 
           saturate-0 md:top-[445px] md:left-[-212px] 
@@ -15,7 +15,7 @@ const Hero = () => {
         />
 
         <img
-          src="./public/infinity.png"
+          src="/infinity.png"
           alt="Bg"
           className="z-[-99] absolute saturate-0 md:top-[275px] md:right-[-230px]
           rotate-[34deg] md:scale-[1.7] top-[185px] right-[-250px] scale-[1.3] opacity-90"
@@ -71,7 +71,7 @@ const Hero = () => {
         "
       >
         <img
-          src="./public/hadi2.png"
+          src="/hadi2.png"
           alt="Bg"
           className="saturate-0 w-[280px] md:w-[360px]"
         />
@@ -177,7 +177,7 @@ const Hero = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-center w-full">
           <div className="relative font-inter text-center md:text-center md:w-1/2">
             <img
-          src="./public/infinity.png"
+          src="/infinity.png"
           alt="Bg"
           className="z-[-99] absolute hover:saturate-100 saturate-0 transition-all duration-1000
            md:top-[-270px] md:left-[0px] 
