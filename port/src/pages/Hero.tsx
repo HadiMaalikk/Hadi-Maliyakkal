@@ -181,9 +181,9 @@ const Hero = () => {
           alt="Bg"
           className="z-[-99] absolute hover:saturate-100 saturate-0 transition-all duration-1000
            md:top-[-270px] md:left-[0px] 
-          md:scale-[0.5] top-[-200px] left-[0px] scale-[0.4] opacity-90"
+          md:scale-[0.5] top-[-165px] left-[0px] scale-[0.4] opacity-90"
         />
-            <p className="text-[#eeeeee] leading-tight font-thin md:text-lg text-sm">
+            <p className="text-[#eeeeee] leading-tight font-thin md:text-lg text-xs">
               <span className="font-semibold">Infinity</span> can be anything - All it takes is the courage to <span className="font-semibold">leap</span>
             </p>
 
