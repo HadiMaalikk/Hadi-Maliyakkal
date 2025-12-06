@@ -12,7 +12,7 @@ const Bento: React.FC<BentoProps> = ({ title, to, className = "" }) => {
     <div >
       <Link
         to={to}
-        className={`text-[#eeeeee] hover:text-[#cacaca] text-center transition-all duration-300  border border-white/30 bg-[#5050501A] backdrop-blur rounded-[20px] font-inter font-medium flex justify-center items-center ${className}`}>
+        className={`text-[#cacaca] hover:text-[#eeeeee] text-center  border border-white/30 bg-[#5050501A] backdrop-blur rounded-[20px] font-inter font-medium flex justify-center items-center ${className}`}>
         {title}
       </Link>
     </div>

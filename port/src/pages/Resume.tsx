@@ -1,9 +1,16 @@
+import { EncryptedText } from "../components/encrypted-text";
+
 const Resume = () => {
   return (
-    <section>
-      <h1 className="text-2xl font-bold text-white flex justify-center">
-        Resume
-      </h1>
+    <section className="min-h-screen flex items-center justify-center">
+      <p className="max-w-lg text-white">
+        <EncryptedText
+          text="Designed by Hadi Maliyakkal."
+          encryptedClassName="text-neutral-500"
+          revealedClassName="text-white"
+          revealDelayMs={50}
+        />
+      </p>
     </section>
   );
 };

@@ -25,7 +25,7 @@ body{
 
 :root{
   --scrollbar-track: rgb(0, 0, 0);
-  --scrollbar-thumb: rgb(10, 10, 10);
+  --scrollbar-thumb: rgb(22, 22, 22);
   --scrollbar-thumb-hover: rgb(18, 18, 18);
   --scrollbar-width: 5px;
   --scrollbar-radius: 10px;
@@ -59,4 +59,19 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-thumb:hover {
   background: var(--scrollbar-thumb-hover);
   transform: scale(1.02);
+}
+
+
+
+/* fade overlay: opacity-only animation, no background-color changes */
+@keyframes fadeOpacityOut {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+/* overlay starts black (so user sees black) but animation fades opacity only.
+   IMPORTANT: overlay element will be removed on animationend (see React handler). */
+.fade-overlay {
+  background: rgba(0,0,0,0.95); /* initial black visible during fade */
+  animation: fadeOpacityOut 900ms ease-out forwards;
 }

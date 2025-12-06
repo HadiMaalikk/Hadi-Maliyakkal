@@ -6,13 +6,14 @@ import Hobbies from "./pages/Hobbies";
 import Contact from "./pages/Contact";
 import Certificate from "./pages/Certificate";
 import Navbar from "./assets/Navbar";
+import HeroWithLoading from "./pages/HeroWithLoading";
 
 const App = () => {
   return (
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Hero />} />
+        <Route path="/" element={<HeroWithLoading/>} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/hobbies" element={<Hobbies />} />
