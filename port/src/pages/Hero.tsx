@@ -153,7 +153,7 @@ const Hero = () => {
             <h1 className="text-[#eeeeee] text-2xl font-thin mt-[60px] mb-3 ">
               about <span className="font-semibold">me.</span>
             </h1>
-            <div className="text-[#eeeeee] leading-tight font-thin text-[15px] mx-16 text-justify space-y-5">
+            <div className="text-[#eeeeee] leading-tight font-thin text-[15px] mx-10 text-justify space-y-5">
   <p>
     Creative and technically skilled Full-stack Developer passionate about AI product design and user-centric experiences.
     Proficient in Python-based development, with a focus on building intelligent, intuitive, and efficient solutions.
