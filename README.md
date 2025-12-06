@@ -10,7 +10,7 @@ Build Progress - 20%
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-**Tech Stack**  
+<u>**Tech Stack**</u>  
 Frontend: React, TypeScript, Tailwind CSS, Framer Motion  
 Build Tool: Vite  
 Deployment: Vercel  
