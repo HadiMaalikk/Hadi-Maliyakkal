@@ -9,17 +9,17 @@ Build Progress - 20%
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Tech Stack
-Frontend: React, TypeScript, Tailwind CSS, Framer Motion
-Build Tool: Vite
-Deployment: Vercel
+Tech Stack  
+Frontend: React, TypeScript, Tailwind CSS, Framer Motion  
+Build Tool: Vite  
+Deployment: Vercel  
 
 
 
-Feel free to reach out!
-Email: hadimaliyakkal2@gmail.com
-LinkedIn: https://www.linkedin.com/in/hadi-m/
-GitHub: HadiMaalikk
+Feel free to reach out!  
+Email: hadimaliyakkal2@gmail.com  
+LinkedIn: https://www.linkedin.com/in/hadi-m/  
+GitHub: HadiMaalikk  
 
 
 Thank you for visiting my portfolio! 🤍
