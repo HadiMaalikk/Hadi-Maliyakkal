@@ -67,7 +67,7 @@ const Hero = () => {
         className="
           absolute z-10 pointer-events-none
           md:top-[-240px] md:left-[150px]
-          top-[-240px] left-[80px]
+          top-[-240px] left-[30px]
         "
       >
         <img
@@ -93,7 +93,7 @@ const Hero = () => {
         to="/portfolio"
         className="
           tracking-[-0.03em] absolute z-20
-          top-[-130px] left-[260px] text-[22px] py-10 px-4
+          top-[-130px] left-[210px] text-[22px] py-10 px-4
           
           md:top-[-110px] md:left-[380px] md:text-[30px] md:py-14 md:px-5
           hover:shadow-[0_0_20px_rgba(255,255,255,0.25)] transition-all duration-500
@@ -106,7 +106,7 @@ const Hero = () => {
         to="/hobbies"
         className="
           tracking-[-0.03em] absolute z-0
-          top-[-180px] left-[80px] text-[22px] py-10 px-4
+          top-[-180px] left-[30px] text-[22px] py-10 px-4
           
           md:top-[-200px] md:left-[140px] md:text-[30px] md:py-14 md:px-5
           hover:shadow-[0_0_20px_rgba(255,255,255,0.25)] transition-all duration-500
@@ -119,7 +119,7 @@ const Hero = () => {
         to="/certificate"
         className="
           tracking-[-0.03em] absolute z-0
-          top-[60px] left-[270px] text-[22px] py-10 px-3
+          top-[60px] left-[220px] text-[22px] py-10 px-3
           
           md:top-[150px] md:left-[405px] md:text-[30px] md:py-16 md:px-4
           hover:shadow-[0_0_20px_rgba(255,255,255,0.25)] transition-all duration-500
@@ -132,7 +132,7 @@ const Hero = () => {
         to="/resume"
         className="
           tracking-[-0.03em] absolute z-10
-          top-[30px] left-[40px] text-[32px] py-10 px-4
+          top-[30px] left-[0px] text-[32px] py-10 px-4
           
           md:top-[100px] md:left-[65px] md:text-[50px] md:py-16 md:px-5
           hover:shadow-[0_0_20px_rgba(255,255,255,0.25)] transition-all duration-500
