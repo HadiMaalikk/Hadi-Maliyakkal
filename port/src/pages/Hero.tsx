@@ -101,17 +101,17 @@ const Hero = () => {
         title="portfolio."
       />
 
-      {/* Bento – hobbies */}
+      {/* Bento */}
       <Bento
-        to="/hobbies"
+        to="/projects"
         className="
           tracking-[-0.03em] absolute z-0
           top-[-180px] left-[20px] text-[22px] py-10 px-4
           
-          md:top-[-200px] md:left-[140px] md:text-[30px] md:py-14 md:px-5
+          md:top-[-170px] md:left-[140px] md:text-[30px] md:py-14 md:px-5
           hover:shadow-[0_0_20px_rgba(255,255,255,0.25)] transition-all duration-500
         "
-        title="hobbies."
+        title="projects."
       />
 
       {/* Bento – certificates */}

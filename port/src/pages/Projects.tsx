@@ -1,5 +1,5 @@
 
-const Hobbies = () => {
+const Projects = () => {
     return(
         <section>
             
@@ -8,4 +8,4 @@ const Hobbies = () => {
     )
 }
 
-export default Hobbies;
+export default Projects;

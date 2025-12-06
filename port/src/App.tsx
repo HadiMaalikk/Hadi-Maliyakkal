@@ -1,11 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
-import Hobbies from "./pages/Hobbies";
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Certificate from "./pages/Certificate";
 import Navbar from "./assets/Navbar";
 import HeroWithLoading from "./pages/HeroWithLoading";
+
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
         <Route path="/" element={<HeroWithLoading/>} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/hobbies" element={<Hobbies />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/certificate" element={<Certificate />} />
       </Routes>
