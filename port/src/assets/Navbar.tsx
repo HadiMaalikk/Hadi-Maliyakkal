@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const navLinks = [
   { name: "Resume", href: "/resume" },
   { name: "Portfolio", href: "/portfolio" },
-  { name: "Hobbies", href: "/hobbies" },
+  { name: "Projects", href: "/projects" },
 ];
 
 //{ name: "Hobbies", href: "/hobbies" }, add this to above arrray

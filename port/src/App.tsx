@@ -7,7 +7,6 @@ import Certificate from "./pages/Certificate";
 import Navbar from "./assets/Navbar";
 import HeroWithLoading from "./pages/HeroWithLoading";
 
-
 const App = () => {
   return (
     <div className="overflow-x-hidden">
@@ -20,6 +19,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/certificate" element={<Certificate />} />
       </Routes>
+      
     </div>
   );
 };
