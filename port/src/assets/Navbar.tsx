@@ -51,7 +51,7 @@ const Navbar = () => {
       {/* Mobile Hamburger Button */}
       <nav className="mx-16 sm:hidden backdrop-blur-lg h-full bg-[#5050501A] border border-white/30 rounded-l px-2 py-1">
         <div className="sm:hidden flex justify-between ">
-          <div></div>
+        
           <Link
             to="/"
             className={
