@@ -1,5 +1,5 @@
 
-const Resume = () => {
+const Design = () => {
   return (
     <section className="min-h-screen flex items-center justify-center">
       <p className="max-w-lg text-white">
@@ -9,4 +9,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Design;

@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Certificate from "./pages/Certificate";
 import Navbar from "./assets/Navbar";
 import HeroWithLoading from "./pages/HeroWithLoading";
+import Design from "./pages/Design";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/certificate" element={<Certificate />} />
+        <Route path="/Design" element={<Design />} />
       </Routes>
       
     </div>

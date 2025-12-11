@@ -37,7 +37,7 @@ const navigate = useNavigate();
   }, [hovered]);
 
   const handleClick = () => {
-    navigate("/compare");
+    navigate("/portfolio");
   };
 
   return (
