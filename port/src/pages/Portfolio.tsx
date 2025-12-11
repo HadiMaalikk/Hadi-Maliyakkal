@@ -29,7 +29,7 @@ const Portfolio = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center w-full">
           {/* RESPONSIVE GRID — desktop stays EXACTLY as original */}
           <div
-             className="
+            className="
         mt-32
              p-10
     grid 
@@ -124,9 +124,9 @@ const Portfolio = () => {
     text-[40px] 
       col-span-1 row-span-1 cursor-crosshair
     
-    " 
+    "
             >
-             <span className="block scale-[0.6] lg:scale-[0.8]">
+              <span className="block scale-[0.4] lg:scale-[0.8]">
                 Portfolio
               </span>
             </Bento>
@@ -160,10 +160,9 @@ const Portfolio = () => {
               <img src="/Scissors.svg" className="h-12 w-12 mx-auto" />
             </Bento>
           </div>
-           {/* bento ends here*/}
+          {/* bento ends here*/}
 
-            <FeedbackForm></FeedbackForm>
-
+          <FeedbackForm></FeedbackForm>
         </div>
       </section>
     </>
