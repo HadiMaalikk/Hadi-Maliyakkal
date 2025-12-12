@@ -38,8 +38,8 @@ const FeedbackForm: React.FC = () => {
 
   return (
     <div className="min-h-screen text-white flex items-center justify-center p-4">
-      <section className="w-full max-w-2xl">
-        <h2 className="text-4xl md:text-5xl mb-12 font-light">
+      <section className="w-full max-w-2x font-inter">
+        <h2 className="text-4xl md:text-5xl mb-12 font-thin hover:text-[#ff0000] transition-all duration-500">
           Send your <span className="font-bold">Feedback.</span>
         </h2>
 
@@ -88,7 +88,7 @@ const FeedbackForm: React.FC = () => {
             <button
               type="submit"
               disabled={loading}
-              className="bg-white text-black px-8 py-3 rounded-lg font-medium text-sm hover:bg-gray-200 transition-transform active:scale-95 disabled:opacity-60"
+              className="bg-white text-black px-5 py-2 rounded-[4px] font-medium text-xs hover:bg-[#5050501A] hover:text-[#eeeeee]   hover:backdrop-blur hover:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.3)] active:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.5)] transition-all duration-500 active:scale-95 disabled:opacity-60"
             >
               {loading ? "Sending..." : "Submit"}
             </button>
