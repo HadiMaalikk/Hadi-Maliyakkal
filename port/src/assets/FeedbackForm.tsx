@@ -88,7 +88,7 @@ const FeedbackForm: React.FC = () => {
             <button
               type="submit"
               disabled={loading}
-              className="bg-white text-black px-5 py-2 rounded-[4px] font-medium text-xs hover:bg-[#5050501A] hover:text-[#eeeeee]   hover:backdrop-blur hover:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.3)] active:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.5)] transition-all duration-500 active:scale-95 disabled:opacity-60"
+              className="bg-white text-black px-5 py-2 rounded-[4px] text-xs hover:bg-[#5050501A] hover:text-[#eeeeee]   hover:backdrop-blur hover:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.3)] active:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.5)] transition-all duration-500 active:scale-95 disabled:opacity-60"
             >
               {loading ? "Sending..." : "Submit"}
             </button>
