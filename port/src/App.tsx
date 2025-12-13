@@ -7,11 +7,13 @@ import Certificate from "./pages/Certificate";
 import Navbar from "./assets/Navbar";
 import HeroWithLoading from "./pages/HeroWithLoading";
 import Design from "./pages/Design";
+import ScrollTop from './components/ScrollToTop'
 
 const App = () => {
   return (
     <div className="overflow-x-hidden">
       <Navbar />
+      <ScrollTop/>
       <Routes>
         <Route path="/" element={<HeroWithLoading/>} />
         <Route path="/resume" element={<Resume />} />

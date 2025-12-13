@@ -12,11 +12,16 @@ module.exports = {
 			float2: {
 				'0%, 100%' : { transform : 'translateY(-5px)'},
 				'50%': {transform: 'translateY(0px)'},
-			}
+			},
+			move: {
+				'0%' : {transform : 'translateX(200px)'},
+				'100%' : {transform : 'translateY(200px)'}
+			},
 		},
 		animation: {
 			float1: 'float1 3s ease-in-out infinite',
 			float2: 'float2 3s ease-in-out infinite',
+			move: 'move 5s linear infinite',
 		},
   		fontFamily: {
   			century: [
