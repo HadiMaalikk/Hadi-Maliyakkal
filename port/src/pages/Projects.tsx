@@ -4,7 +4,8 @@ const Projects = () => {
   return (
     <>
       <section className="w-full min-h-screen flex-col flex  items-center pt-28 pb-5 font-inter">
-        <div className="absolute inset-0 pointer-events-none -z-10">
+        <div className="absolute inset-0 pointer-events-none -z-10 overflow-hidden">
+          <div className="relative w-full h-full">
           <img
               src="/infinity.png"
               alt="Bg"
@@ -28,6 +29,7 @@ const Projects = () => {
     md:top-[1030px] md:left-[560px] md:scale-[1.3] 
     top-[465px] left-[-212px] scale-[1] opacity-90"
           />
+          </div>
         </div>
 
         <h1
