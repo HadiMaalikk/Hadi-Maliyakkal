@@ -77,7 +77,7 @@ const Projects = () => {
                 className="h-16 w-16 "
               />
             }
-          />{" "}
+          />
           {/*card ends here*/}
           <CardDemo
             to="#"
@@ -91,7 +91,7 @@ const Projects = () => {
                 className="h-20 w-20 "
               />
             }
-          />{" "}
+          />
           {/*card ends here*/}
           <CardDemo
             to="#"
@@ -105,7 +105,7 @@ const Projects = () => {
                 className="h-24 w-24 "
               />
             }
-          />{" "}
+          />
           {/*card ends here*/}
           <CardDemo
             to="#"
@@ -119,7 +119,7 @@ const Projects = () => {
                 className="h-24 w-24 "
               />
             }
-          />{" "}
+          />
           {/*card ends here*/}
 
           <CardDemo
@@ -134,7 +134,7 @@ const Projects = () => {
                 className="h-20 w-20  "
               />
             }
-          />{" "}
+          />
           {/*card ends here*/}
 
         </div>
