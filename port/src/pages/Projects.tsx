@@ -3,10 +3,10 @@ import CardDemo from "../components/CardDemo";
 const Projects = () => {
   return (
     <>
-      <section className="w-full min-h-screen flex-col flex  items-center pt-28 pb-5 font-inter">
-        <div className="absolute inset-0 pointer-events-none -z-10 overflow-hidden">
+      <section className=" overflow-hidden w-full min-h-screen flex-col flex  items-center pt-28 pb-5 font-inter">
+        <div className="absolute inset-0 pointer-events-none -z-10">
           <div className="relative w-full h-full">
-          <img
+            <img
               src="/infinity.png"
               alt="Bg"
               className="absolute rotate-[-34deg] saturate-0 
@@ -22,13 +22,13 @@ const Projects = () => {
               top-[185px] right-[-250px] scale-[1.3] opacity-90"
             />
 
-          <img
-            src="/infinity.png"
-            alt="Bg"
-            className="absolute rotate-[15deg] saturate-0 
+            <img
+              src="/infinity.png"
+              alt="Bg"
+              className="absolute rotate-[15deg] saturate-0 
     md:top-[1030px] md:left-[560px] md:scale-[1.3] 
-    top-[465px] left-[-212px] scale-[1] opacity-90"
-          />
+    top-[1005px] left-[-5px] scale-[1] opacity-90"
+            />
           </div>
         </div>
 
@@ -63,7 +63,6 @@ const Projects = () => {
                 alt="Ransomware project"
                 className="h-20 w-20 "
               />
-              
             }
           />
           <CardDemo
@@ -77,10 +76,9 @@ const Projects = () => {
                 alt="soulscript weddings"
                 className="h-16 w-16 "
               />
-              
             }
-          /> {/*card ends here*/}
-
+          />{" "}
+          {/*card ends here*/}
           <CardDemo
             to="#"
             title="Razack's Homepathy"
@@ -92,10 +90,9 @@ const Projects = () => {
                 alt="Razack homeopathy"
                 className="h-20 w-20 "
               />
-              
             }
-          /> {/*card ends here*/}
-
+          />{" "}
+          {/*card ends here*/}
           <CardDemo
             to="#"
             title="WornOut"
@@ -107,10 +104,9 @@ const Projects = () => {
                 alt="Worn out app"
                 className="h-24 w-24 "
               />
-              
             }
-          /> {/*card ends here*/}
-          
+          />{" "}
+          {/*card ends here*/}
           <CardDemo
             to="#"
             title="Grela.in"
@@ -122,9 +118,24 @@ const Projects = () => {
                 alt="Grela website"
                 className="h-24 w-24 "
               />
-              
             }
-          /> {/*card ends here*/}
+          />{" "}
+          {/*card ends here*/}
+
+          <CardDemo
+            to="#"
+            title="SiApp"
+            className={"bg-[#5050501a]"}
+            description="Self improvement app for personal use"
+            icon={
+              <img
+                src="/siapp.svg"
+                alt="Si app"
+                className="h-20 w-20  "
+              />
+            }
+          />{" "}
+          {/*card ends here*/}
 
         </div>
       </section>
@@ -133,3 +144,11 @@ const Projects = () => {
 };
 
 export default Projects;
+
+//https://www.notion.so/SoulScript-Weddings-A-Wedding-Photography-23e92f31d82780daa4afc7b71af1c6c8?source=copy_link
+//https://hm69.notion.site/UI-UX-2cb92f31d8278034bae0d83c92663784
+//https://routetrax.onrender.com/
+//grela.in
+//razack.com
+
+//use a tag for external links and Link tag for internal navigation.
