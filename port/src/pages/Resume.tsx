@@ -7,9 +7,8 @@ const ResumePage = () => {
   return (
     <main className="min-h-screen bg-black text-[#eeeeee] flex flex-col items-center p-6 md:p-12 font-inter">
       {/* Heading */}
-      <h1 className="text-4xl font-bold mt-20 text-center">Resume Add portfolio link to frontend works </h1>
-      <div className="w-20 h-[1px] bg-[#eeeeee] rounded-full mt-3 mb-10"></div>
-
+      <h1 className="text-4xl font-bold mt-20 text-center">Resume</h1>
+      <div className="w-20 h-[1px] bg-[#eeeeee] rounded-full mt-3 mb-10"></div> 
       {/* Buttons */}
       <div className="flex gap-2 mb-10">
         <a
