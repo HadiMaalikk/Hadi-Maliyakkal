@@ -122,6 +122,7 @@ const Projects = () => {
           />
           {/*card ends here*/}
 
+            {/*card starts here*/}
           <CardDemo
             to="#"
             title="SiApp"
@@ -131,6 +132,22 @@ const Projects = () => {
               <img
                 src="/siapp.svg"
                 alt="Si app"
+                className="h-20 w-20  "
+              />
+            }
+          />
+          {/*card ends here*/}
+
+          {/*card starts here*/}
+          <CardDemo
+            to="#"
+            title="Spicy Fresh Chicken"
+            className={"bg-[#5050501a]"}
+            description="Professional website for a UAE based restaurant"
+            icon={
+              <img
+                src="/sfc.svg"
+                alt="Spicy Fresh Chicken"
                 className="h-20 w-20  "
               />
             }
